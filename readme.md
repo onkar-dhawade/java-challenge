@@ -1,3 +1,8 @@
+### About this project
+
+- This is a simple spring-boot project.
+
+
 ### How to use this spring-boot project
 
 - Install packages with `mvn package`
@@ -11,27 +16,17 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 > Don't forget to set the `JDBC URL` value as `jdbc:h2:mem:testdb` for H2 UI.
 
 
+### Changelog
 
-### Instructions
+- Added spring-boot-devtools
+- Refactored EmployeeController.java, EmployeeService.java
+- Added basic logging
+- Validation to entity class
+- Added Exception handling
+- Added initial data loading into h2 db
+- Added Unit test cases
 
-- Fork this project
-- Enhance the code in any ways you can see, you are free!. Some possibilities:
-  - Add tests
-  - Change syntax
-  - Improve doc and comments
-  - Fix any bug you might find
-- Edit readme.md and add any comments. It can be about what you did, what you would have done if you had more time, etc.
-- Send us the link of your fork
+### Future scope
 
-#### Restrictions
-- use java 8
-
-
-#### What we will look for
-- Readability of your code
-- Documentation
-- Comments in your code 
-- Appropriate usage of spring boot
-- Appropriate usage of packages
-- Is the application running as expected
-- No performance issues
+- Hateoas implementation
+- Logging into File (RollingFileAppender)
